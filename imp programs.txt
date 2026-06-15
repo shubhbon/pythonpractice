@@ -1,0 +1,25 @@
+01.armstrong 
+
+num = int(input("Enter a number:"))
+total = 0
+n = len(str(num))
+
+for i in str(num):
+    total = total+ int(i)** n
+
+if total == num:
+    print("The number is armstrong")
+else:
+    print("The number is not armstrong")
+
+==========================================================================
+
+02. palendrom 
+s = input("enter input number:")
+rev= ""
+for char in s:
+    rev = char +rev
+if s == rev:
+    print("given string is palindrome")
+else:
+    print("given string is not palindrome")
